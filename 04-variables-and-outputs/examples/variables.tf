@@ -1,4 +1,4 @@
-# should specify optional vs required
+# should specify optional vs required 
 
 variable "instance_name" {
   description = "Name of ec2 instance"
@@ -6,7 +6,7 @@ variable "instance_name" {
 }
 
 variable "ami" {
-  description = "Amazon machine image to use for ec2 instance"
+  description = "Amazon machine image to use for the ec2 instance"
   type        = string
   default     = "ami-011899242bb902164" # Ubuntu 20.04 LTS // us-east-1
 }
