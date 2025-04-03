@@ -1,7 +1,7 @@
 name: "Terraform"
 
 on:
-  # Uncomment to enable staging deploy from main
+  # Uncomment to enable staging deploy from main to stop this from getting triggered and deploy Cloud resources
   # push:
   #   branches:
   #     - main
