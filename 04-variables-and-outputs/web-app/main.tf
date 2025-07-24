@@ -94,7 +94,7 @@ resource "aws_lb_listener" "http" {
 
   protocol = "HTTP"
 
-  # By default, return a simple 404 page
+  # By default,  return a simple 404 page
   default_action {
     type = "fixed-response"
 
